@@ -1,0 +1,32 @@
+ .nav-bar a {
+  
+    text-transform: uppercase; 
+    
+    padding: 10px;
+    display:inline-flex;
+    justify-content: flex-start; 
+    align-items: center;
+    color: #0e0d0d;
+    font-family: sans-serif; 
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px 15px; /* Adjust padding for space around links */
+    margin-right: 20px; /* Adjust margin for space between links */
+    transition: background-color 0.3s ease;
+}
+
+
+.nav-bar a:hover {
+    background-color: hsl(0, 11%, 84%);
+}
+
+
+.nav-bar a.router-link-active {
+    background-color: hsl(80, 38%, 89%);
+}
+
+*{
+margin: 0;
+padding: 0;
+font-family: sans-serif;
+}  

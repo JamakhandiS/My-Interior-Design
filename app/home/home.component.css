@@ -1,0 +1,24 @@
+
+  *{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  }
+  .content {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center; 
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  .banner{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position:center;
+    }
